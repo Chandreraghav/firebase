@@ -1,0 +1,95 @@
+.employee-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-employee-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .employee-table th, 
+  .employee-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+ 
+  
+  
+
+  @media (max-width: 768px) {
+    .employee-container {
+      padding: 10px;
+    }
+  
+    .add-employee-btn {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .employee-table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .edit-btn, .delete-btn {
+      font-size: 14px;
+    }
+  
+    .logout-btn {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .employee-table th, .employee-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .edit-btn, .delete-btn {
+      font-size: 14px;
+      padding: 5px;
+    }
+  
+    .logout-btn {
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
+  
